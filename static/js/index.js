@@ -5,9 +5,8 @@ let listItem = document.querySelectorAll(".myLi");
 for (let i = 0; i < colors.length; i++) {
 	let c = colors[i];
 	let listIt = listItem[i];
-    
-	c.addEventListener("click", function (e) {
 
+	c.addEventListener("click", function (e) {
 		e.preventDefault();
 
 		let col = e.currentTarget;
