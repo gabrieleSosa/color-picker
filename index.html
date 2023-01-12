@@ -1,43 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>color picker</title>
+		<title>color picker</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
+		<link rel="stylesheet" href="static/css/style.css" />
+	</head>
 
-<body>
-    
-    <div class="container">
+	<body>
+		<div class="container">
+			<div class="title-wrap">
+				<h1 id="main-title" class="white-txt font-russo">PICK A COLOR</h1>
+			</div>
 
-        <div class="title-wrap">
-            <h1 id="main-title" class="white-txt font-russo">PICK A COLOR</h1>
-        </div>
+			<div class="description-wrap">
+				<h3 id="description" class="white-txt font-russo">
+					Scegli un colore per cambiare lo sfondo della pagina
+				</h3>
+			</div>
 
-        <div class="description-wrap">
-            <h3 id="description" class="white-txt font-russo">Scegli un colore per cambiare lo sfondo della pagina</h3>
-        </div>
+			<div class="picker-container">
+				<ul>
+					<li>
+						<a
+							class="myColor"
+							href="#"
+							data-bgcolor="#f00"
+							id="red"
+						></a>
+					</li>
+					<li>
+						<a
+							class="myColor"
+							href="#"
+							data-bgcolor="#808080"
+							id="grey"
+						></a>
+					</li>
+					<li>
+						<a
+							class="myColor"
+							href="#"
+							data-bgcolor="#000fe8"
+							id="blue"
+						></a>
+					</li>
+					<li>
+						<a
+							class="myColor"
+							href="#"
+							data-bgcolor="#00a003"
+							id="green"
+						></a>
+					</li>
+					<li>
+						<a
+							class="myColor"
+							href="#"
+							data-bgcolor="#ff00bf"
+							id="pink"
+						></a>
+					</li>
+					<li>
+						<a
+							class="myColor"
+							href="#"
+							data-bgcolor="#fffb00"
+							id="yellow"
+						></a>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-        <div class="picker-container">
-            <ul>
-                <li><a href="#" data-bgcolor="#f00" id="red"></a></li>
-                <li><a href="#" data-bgcolor="#808080" id="grey"></a></li>
-                <li><a href="#" data-bgcolor="#000fe8" id="blue"></a></li>
-                <li><a href="#" data-bgcolor="#00a003" id="green"></a></li>
-                <li><a href="#" data-bgcolor="#ff00bf" id="pink"></a></li>
-                <li><a href="#" data-bgcolor="#fffb00" id="yellow"></a></li>
-            </ul>
-        </div>
-    </div>
-
-    <script src="static/js/index.js"></script>
-</body>
+		<script src="static/js/index.js"></script>
+	</body>
 </html>

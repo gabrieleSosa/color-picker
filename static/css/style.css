@@ -1,92 +1,89 @@
-
-
-body{
-    
-    box-sizing: border-box;
-    margin: 0;
-    background-color: black;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+body {
+	box-sizing: border-box;
+	margin: 0;
+	background-color: black;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
 }
 
-.white-txt{
-    color: #fff;
+.white-txt {
+	color: #fff;
 }
 
-ul{
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+ul {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
 }
 
-li{
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    border-radius: 10px;
+li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	border-radius: 10px;
 }
 
-.font-russo{
-    
-    font-family: 'Russo One', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
+.font-russo {
+	font-family: "Russo One", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
 }
 
-h1, h3{
-    margin: 0;
+h1,
+h3 {
+	margin: 0;
 }
 
-h1{
-    font-size: 78px;
-    margin-bottom: 40px;
+h1 {
+	font-size: 78px;
+	margin-bottom: 40px;
 }
 
-h3{
-    font-size: 22px;
-    margin-bottom: 31px;
+h3 {
+	font-size: 22px;
+	margin-bottom: 31px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-#red{
-    background-color: #f00;
+#red {
+	background-color: #f00;
 }
 
-#grey{
-    background-color: #808080;
+#grey {
+	background-color: #808080;
 }
 
-#blue{
-    background-color: #000fe8;
+#blue {
+	background-color: #000fe8;
 }
 
-#green{
-    background-color: #00a003;
+#green {
+	background-color: #00a003;
 }
 
-#pink{
-    background-color: #ff00bf;
+#pink {
+	background-color: #ff00bf;
 }
 
-#yellow{
-    background-color: #fffb00;
+#yellow {
+	background-color: #fffb00;
 }
 
-a{
-    display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    margin: 5px 5px;
+a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 5px 5px;
 }
