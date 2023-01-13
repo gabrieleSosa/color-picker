@@ -13,27 +13,27 @@ for (let i = 0; i < colors.length; i++) {
 		let subTitle = document.querySelector('.description')
 
 		switch(col.dataset.bgcolor) {
-			case '#f00':
+			case '#FE0202':
 				mainTitle.style.color = 'white'
 				subTitle.style.color = 'white'
 				break;
-			case '#808080':
+			case '#59BC98':
 				mainTitle.style.color = 'black'
 				subTitle.style.color = 'black'
 				break;
-			case '#000fe8':
+			case '#2594D2':
 				mainTitle.style.color = '#832A0D'
 				subTitle.style.color = '#832A0D'
 				break;
-			case '#00a003':
+			case '#72BC59':
 				mainTitle.style.color = 'red'
 				subTitle.style.color = 'red'
 				break;
-			case '#ff00bf':
+			case '#BC59A0':
 				mainTitle.style.color = 'yellow'
 				subTitle.style.color = 'yellow'
 				break;
-			case '#fffb00':
+			case '#DCF63C':
 				mainTitle.style.color = 'purple'
 				subTitle.style.color = 'purple'
 				break;
