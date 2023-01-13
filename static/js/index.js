@@ -8,11 +8,8 @@ for (let i = 0; i < colors.length; i++) {
 
 	c.addEventListener("click", function (e) {
 		e.preventDefault();
-
 		let col = e.currentTarget;
-		//console.log(col.dataset.bgcolor);
 
 		body.style.backgroundColor = col.dataset.bgcolor;
-		listIt.style.border = "3px solid black";
 	});
 }
